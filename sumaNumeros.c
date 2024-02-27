@@ -1,14 +1,13 @@
 #include <stdio.h>
 
-int main (){
-    int x;
-    int suma=0;
+int main() {
+    int num1, num2, suma;
 
-    for(int i=1; i<=8; i++){
-        scanf("%d", &x);
-        suma+=x;
-    }
+    printf("Ingrese dos números: ");
+    scanf("%d %d", &num1, &num2);
 
-    printf("La suma es: %d \n", suma);
+    suma = num1 + num2;
+    printf("La suma es: %d\n", suma);
+
     return 0;
 }
